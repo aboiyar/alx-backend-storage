@@ -1,0 +1,2 @@
+// Finds and lists all documents starting with ALX in the school collection.
+db.school.find({name: /ALX.*/}).forEach(printjson);
